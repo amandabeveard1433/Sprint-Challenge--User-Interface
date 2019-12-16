@@ -51,6 +51,66 @@ table {
     box-sizing: border-box;
 }
 
+nav a {
+    display: inline-block;
+    width: 16%;
+    color: black;
+    text-align: center;
+}
+
+.container about-page {
+    display:flex;
+    display: flex;
+	justify-content: space-around;
+	padding: 30px;
+	align-items: flex-start;
+}
+
+.about{
+    display: flex;
+	justify-content: space-around;
+	padding: 30px;
+    align-items: flex-start;
+    float: left;
+    width: 48%
+}
+
+.strategy {
+    display: flex;
+	justify-content: space-around;
+	padding: 30px;
+    align-items: flex-start;
+    float: right;
+    width: 48%
+}
+.howwework {
+    display: flex;
+	justify-content: space-around;
+	padding: 30px;
+    align-items: flex-start;
+    float: left;
+    width: 48%
+}
+.placeswework {
+    display: flex;
+	justify-content: space-around;
+	padding: 30px;
+    align-items: flex-start;
+    float: right;
+    width: 48%
+}
+
+.collaboration {
+    display: flex;
+	justify-content: space-around;
+	padding: 30px;
+    align-items: flex-start;
+    float: left;
+    width: 48%
+}
+
+
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
